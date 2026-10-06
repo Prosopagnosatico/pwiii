@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width:30%;
+    margin: auto;
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px grey;
+    padding-bottom: 40px;
+
+}
+
+.um-do-lado-do-outro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: flex;
+    margin-bottom: bold;
+    font-weight: bold;
+}
+
+input{
+    width: 30%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button{
+    border: 1px solid rgb(158, 158, 255);
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(98, 98, 240);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+}   
+
+p{
+    font-size: 20px;
+}
